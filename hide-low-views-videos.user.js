@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         YouTube Hide Low Views Old Videos
+// @name         YouTube Hide Low Views Videos
 // @version      1.0.0
 // @description  Hide YouTube homepage videos published with low views
 // @author       umbertoragone
