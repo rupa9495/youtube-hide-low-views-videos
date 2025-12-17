@@ -6,7 +6,8 @@ A lightweight userscript that **automatically hides low views videos** from YouT
 
 ## Features
 
-- Hides **"Members only"** and **"Members first"** videos
+- Hides low views (usually low quality) videos
+- Customizable – adjust `MIN_HOURS` and `MAX_VIEWS` in the script
 - Works dynamically with YouTube's modern **Single Page Application (SPA)** behavior
 - Reacts to scrolling and content updates automatically
 - 100% client‑side — no API calls, no external dependencies
